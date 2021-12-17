@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles-games.css" />
+    <title>ArcSys Games</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><a href="games.html">
+          <img class="logo__img" src="img/logo.png" alt="ArcSys" aria-label="ArcSys" />
+          Arc System Works
+        </a></h1>
+        
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="games.html">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+        
+    <div class="container">
+        <form>
+        <div class="form__filter">
+          <div class="form__series">
+            <label for="series">Choose a series:</label>
+            <select id="series">
+              <option selected>All</option>
+              <option>Guilty Gear</option>
+              <option>BlazBlue</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form__terms">
+            <label for="searchTerm">Enter search term:</label>
+            <input type="text" id="searchTerm" placeholder="e.g. blazblue" />
+          </div>
+        </div>
+        <button class="btn btn__form">Filter</button>
+      </form>
+
+      <main>
+        <!-- Generated in games.js -->
+      </main>
+    </div>
+
+    <footer>
+      <ul class="footer-nav">
+        <li><a href="index.html#top">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="games.html">Products</a></li>
+      </ul>
+      
+      <ul class="footer-social">
+        <li><a class="social-link" href="https://twitter.com/ArcSystemWorksU" target="_blank" rel="noopener noreferrer">
+            <img class="social-icon" src="img/twitter.png" alt="twitter" aria-label="twitter" />
+          </a></li>
+      
+        <li><a class="social-link" href="https://www.facebook.com/arcsystemworksu/" target="_blank" rel="noopener noreferrer">
+            <img class="social-icon" src="img/facebook.png" alt="facebook" aria-label="facebook" />
+          </a></li>
+      
+        <li><a class="social-link" href="https://www.youtube.com/user/arcsystemworks" target="_blank"
+            rel="noopener noreferrer">
+            <img class="social-icon" src="img/youtube.png" alt="youtube" aria-label="youtube" />
+          </a></li>
+      
+        <li><a class="social-link" href="https://www.instagram.com/arcsystemworksu/?hl=en" target="_blank"
+            rel="noopener noreferrer">
+            <img class="social-icon" src="img/instagram.png" alt="instagram" aria-label="instagram" />
+          </a></li>
+      </ul>
+    </footer>
+
+    <script src="games.js"></script>
+  </body>
+</html>

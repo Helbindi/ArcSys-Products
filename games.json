@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Guilty Gear Strive",
+        "date": "Jun 11, 2021",
+        "image": "ggst.jpg",
+        "id": 1384160,
+        "series": "guilty gear"
+    },
+    {
+        "name": "Granblue Fantasy: Versus",
+        "date": "Mar 13, 2020",
+        "image": "granblue.jpg",
+        "id": 1090630,
+        "series": "other"
+    },
+    {
+        "name": "BlazBlue: Cross Tag Battle",
+        "date": "Nov 20, 2019",
+        "image": "bbctb.jpg",
+        "id": 702890,
+        "series": "blazblue"
+    },
+    {
+        "name": "KILL la KILL -IF",
+        "date": "Jul 25, 2019",
+        "image": "kill.jpg",
+        "id": 922500,
+        "series": "other"
+    },
+    {
+        "name": "Guilty Gear",
+        "date": "May 15, 2019",
+        "image": "gg.jpg",
+        "id": 850980,
+        "series": "guilty gear"
+    },
+    {
+        "name": "DRAGON BALL FighterZ",
+        "date": "Jan 26, 2018",
+        "image": "dbfz.jpg",
+        "id": 678950,
+        "series": "other"
+    },
+    {
+        "name": "BlazBlue Centralfiction",
+        "date": "Apr 25, 2017",
+        "image": "bbcf.jpg",
+        "id": 586140,
+        "series": "blazblue"
+    },
+    {
+        "name": "Guilty Gear Xrd REVELATOR",
+        "date": "Dec 14, 2016",
+        "image": "ggrev.jpg",
+        "id": 520440,
+        "series": "guilty gear"
+    },
+    {
+        "name": "Guilty Gear 2 OVERTURE",
+        "date": "Mar 31, 2016",
+        "image": "ggoverture.jpg",
+        "id": 437000,
+        "series": "guilty gear"
+    },
+    {
+        "name": "BlazBlue: Chronophantasma Extend",
+        "date": "Mar 2, 2016",
+        "image": "bbce.jpg",
+        "id": 388750,
+        "series": "blazblue"
+    },
+    {
+        "name": "Guilty Gear Xrd SIGN",
+        "date": "Dec 9, 2015",
+        "image": "ggsign.jpg",
+        "id": 376300,
+        "series": "guilty gear"
+    },
+    {
+        "name": "Guilty Gear XX ACCENT CORE +R",
+        "date": "May 26, 2015",
+        "image": "ggplusr.jpg",
+        "id": 348550,
+        "series": "guilty gear"
+    },
+    {
+        "name": "BlazBlue: Continuum Shift Extend",
+        "date": "Dec 11, 2014",
+        "image": "bbcse.jpg",
+        "id": 388750,
+        "series": "blazblue"
+    },
+    {
+        "name": "Guilty Gear X2 Reload",
+        "date": "Sep 5, 2014",
+        "image": "ggreload.jpg",
+        "id": 850980,
+        "series": "guilty gear"
+    },
+    {
+        "name": "BlazBlue: Calamity Trigger",
+        "date": "Feb 13, 2014",
+        "image": "bbct.jpg",
+        "id": 263300,
+        "series": "blazblue"
+    },
+    {
+        "name": "Guilty Gear Isuka",
+        "date": "Jan 16, 2014",
+        "image": "ggisuka.jpg",
+        "id": 314030,
+        "series": "guilty gear"
+    }
+]
