@@ -90,7 +90,7 @@ p:last-child {
 
 /* navigation */
 header {
-  padding: 1em 0 2em;
+  padding-bottom: 2em;
 }
 
 nav {
@@ -181,6 +181,10 @@ nav a:focus {
   line-height: 1.3em;
 }
 
+.intro .section-title {
+  margin: 1em auto;
+}
+
 .about-us {
   background: var(--clr-primary);
   display: flex;
@@ -199,12 +203,13 @@ nav a:focus {
   text-align: center;
 }
 
+.about-us__intro,
 .about-us__body {
-  padding: 1.5em 1em 3em;
+  padding: 4em 2em;
 }
 
 .contact-us {
-  padding: 2em;
+  padding: 3em 0;
   background: rgb(230, 230, 230);
 }
 
@@ -228,6 +233,10 @@ nav a:focus {
   color: var(--clr-accent);
   font-size: 2rem;
   padding: 0.35em;
+}
+
+.product__body p {
+  margin: 0 1em;
 }
 
 /* Footer */
@@ -301,7 +310,7 @@ footer a {
   }
 
   .hero {
-    padding: 12em 0;
+    padding: 9em 0;
   }
 
   .hero .section-title {
@@ -314,7 +323,7 @@ footer a {
 
   .intro .section-title {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2em auto;
   }
 
   .about-us {
@@ -327,7 +336,7 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6em 2em;
+    padding: 8em 2em;
   }
 
   .about-us__intro {

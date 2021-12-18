@@ -107,6 +107,8 @@ function initialize(products) {
     para.textContent = product.date;
 
     a.href = "https://store.steampowered.com/app/" + product.id.toString();
+    a.target = "_blank";
+    a.rel="noopener noreferrer"
     a.textContent = "Steam";
 
     image.src = "img/icons/" + product.image;
@@ -115,7 +117,7 @@ function initialize(products) {
     main.appendChild(section);
     section.appendChild(image);
     section.appendChild(heading);
-    section.appendChild(a);
     section.appendChild(para);
+    section.appendChild(a);
   }
 }
