@@ -111,6 +111,10 @@ nav a:focus {
   text-align: left;
 }
 
+.form__series {
+  margin-bottom: 0.5em;
+}
+
 .btn__form {
   margin-bottom: 2em;
 }

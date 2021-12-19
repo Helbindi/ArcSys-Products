@@ -132,6 +132,7 @@ nav a:focus {
   text-decoration: none;
   display: inline-block;
   border-radius: 0.4em;
+  margin: 0 2.5em;
 }
 
 .btn-primary {
@@ -160,7 +161,7 @@ nav a:focus {
 
 .product-showcase .btn-group {
   justify-content: center;
-  margin: 3em 0 2em;
+  margin-top: 3em;
 }
 
 /* Homepage styles */
@@ -199,13 +200,12 @@ nav a:focus {
   background-position: center;
   background-size: cover;
   color: white;
-  padding: 3em 1em 1.5em;
   text-align: center;
 }
 
 .about-us__intro,
 .about-us__body {
-  padding: 4em 2em;
+  padding: 3em 2em;
 }
 
 .contact-us {
