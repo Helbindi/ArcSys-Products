@@ -43,15 +43,15 @@ p {
 
 h2,
 h3 {
-  line-height: 1em;
+  line-height: 1.15em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 p {
-  margin-bottom: 0.85em;
+  margin-bottom: 1em;
 }
 
 p:last-child {
@@ -83,7 +83,7 @@ p:last-child {
 }
 
 .section-title small {
-  font-size: 0.8em;
+  font-size: 1rem;
   display: block;
   line-height: 1;
 }
@@ -306,7 +306,7 @@ footer a {
   nav ul {
     max-width: 1000px;
     margin: 0 auto;
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 
   .hero {
@@ -314,7 +314,7 @@ footer a {
   }
 
   .hero .section-title {
-    font-size: 3em;
+    font-size: 3rem;
   }
 
   .btn-group {
@@ -377,6 +377,6 @@ footer a {
   footer ul {
     flex-direction: row;
     gap: 1em;
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 }
