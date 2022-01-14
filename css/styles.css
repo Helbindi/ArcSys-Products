@@ -16,6 +16,7 @@ html {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--clr-text);
+  scroll-behavior: smooth;
 }
 
 body {
