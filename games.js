@@ -12,7 +12,8 @@ fetch('games.json').then(function(response) {
 function initialize(products) {
   const series = document.querySelector('#series');
   const searchTerm = document.querySelector('#searchTerm');
-  const searchBtn = document.querySelector('button');
+  const searchBtn = document.querySelector('#search');
+  const clearBtn = document.querySelector('#clear');
   const main = document.querySelector('main');
 
   let lastSeries = series.value;
@@ -28,6 +29,15 @@ function initialize(products) {
   finalGroup = [];
 
   searchBtn.onclick = selectSeries;
+  clearBtn.onclick = clearSeries;
+
+  function clearSeries(e) {
+    e.preventDefault();
+
+    seriesGroup = products;
+    finalGroup = seriesGroup;
+    updateDisplay();
+  }
 
   function selectSeries(e) {
     e.preventDefault();

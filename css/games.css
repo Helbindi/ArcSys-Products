@@ -57,6 +57,7 @@ p:last-child {
 /* navigation */
 header {
   padding: 1em 0;
+  font-weight: 700;
 }
 
 nav {
@@ -115,9 +116,17 @@ nav a:focus {
   margin-bottom: 0.5em;
 }
 
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+  margin: 1em;
+}
+
 .btn__form {
-  display: block;
-  margin: 1em auto;
+  text-transform: uppercase;
+  font-weight: 700;
   padding: 1em 1.5em;
   border-radius: 0.5em;
   background: var(--clr-primary);
@@ -146,9 +155,10 @@ hr.dashed {
 .product {
   background: rgb(230, 230, 230);
   border-radius: 0.4em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.75em rgba(0, 0, 0, 0.5);
   overflow: hidden;
   padding-bottom: 1em;
+  margin: 0 1em;
 }
 
 .product__title {
@@ -164,6 +174,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin-top: 3em;
+  font-weight: 700;
 }
 
 footer ul {
@@ -225,11 +236,22 @@ footer a {
   .products {
     flex-direction: row;
     max-width: 1400px;
+    gap: 2em;
     justify-content: center;
   }
 
   .product {
+    margin: 0;
+  }
+
+  .product {
     flex: 0 1 25%;
+  }
+
+  .product__title {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    min-height: 6ch;
   }
 
   footer ul {

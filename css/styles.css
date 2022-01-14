@@ -91,6 +91,7 @@ p:last-child {
 /* navigation */
 header {
   padding-bottom: 2em;
+  font-weight: 700;
 }
 
 nav {
@@ -247,6 +248,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin-top: 3em;
+  font-weight: 700;
 }
 
 footer ul {
@@ -319,6 +321,7 @@ footer a {
 
   .btn-group {
     flex-direction: row;
+    padding-bottom: 3em;
   }
 
   .intro .section-title {
